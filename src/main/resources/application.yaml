@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: /Users/mark/IdeaProjects/user-app-config
-          #          uri: file:/user-app-config
+          uri: file:/user-app-config
           default-label: main
+
 server:
   port: 8888
 
